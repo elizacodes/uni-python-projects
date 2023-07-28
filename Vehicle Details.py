@@ -33,6 +33,8 @@ def ask_again():
     print("""Would you like to enter another vehicle's information?
           Enter YES/NO or Y/N to continue:""")
     user_prompt = pyip.inputStr().capitalize().strip()
+    # Condition statement does not work; continues to return user_input()
+    # regardless of user_prompt / does not return user_input()
     if user_prompt == "YES" or "Y":
         return user_input()
     elif user_prompt == "NO" or "N":
