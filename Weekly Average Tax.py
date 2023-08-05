@@ -16,10 +16,6 @@ def tax_calculation(income):
                  (500, 1500): 15,
                  (1500,2500): 20,
                  (2500,): 30}
-    #tax_rates = {10:range(0,500),
-                 #15:range(500,1500),
-                 #20:range(1500,2500),
-                 #30:range(2500,)}
     for i in tax_rates.keys():
         if (income >= i[0]):
             if (len(i) > 1):
