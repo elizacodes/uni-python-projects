@@ -22,3 +22,9 @@ This program calculates the weekly average tax withholding for a customer. The c
 - Income *greater than/equal to $500 and less than $1500*: tax rate is 15%
 - Income *greater than/equal to $1500 and less than $2500*: tax rate is 20%
 - Income *greater than/equal to $2500*: tax rate is 30%
+
+- ## 💯 Grade Statistics
+Provides important statistics for a specific grade based on the user inputs with their classes and the grades in their classes. The following output is printed:
+- Average
+- Maximum
+- Minimum
