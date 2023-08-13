@@ -5,7 +5,7 @@ def receive_scores():
     scores = []
     
     while True:
-        score = float(input("Enter a score: \n"))
+        score = float(input("Enter a score or a negative value to stop: \n"))
         if score < 0:
             if len(scores) == 0:
                 print("You must enter one value.")
@@ -21,7 +21,8 @@ def calculate_average(scores):
     for i in range(len(scores)):
         total += scores[i]
     
-    return total / len(scores)
+    average = total / len(scores)
+    return average
 
 def calculate_minimum(scores):
     minimum = scores[0]
@@ -51,5 +52,6 @@ def main():
     maximum = calculate_maximum(scores)
     minimum = calculate_minimum(scores)
     average = calculate_average(scores)
+    results(maximum, minimum, average)
     
-main()   
+main()    
