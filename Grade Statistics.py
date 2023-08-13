@@ -26,7 +26,7 @@ def calculate_average(scores):
 def calculate_minimum(scores):
     minimum = scores[0]
     for i in range(1, len(scores)):
-        if minimum > scores:
+        if minimum > scores[i]:
             minimum = scores[i]
     
     return minimum
