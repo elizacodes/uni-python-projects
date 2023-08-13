@@ -1,14 +1,11 @@
 # This program will provide statistics for 
 # grades in a class.
 
-import pyinputplus as pyip
-
 def receive_scores():
     scores = []
     
     while True:
-        print("Enter a score: ") # .pyip.inputFloat()
-        score = pyip.inputFloat()
+        score = float(input("Enter a score: \n"))
         if score < 0:
             if len(scores) == 0:
                 print("You must enter one value.")
