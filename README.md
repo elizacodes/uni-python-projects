@@ -23,7 +23,7 @@ This program calculates the weekly average tax withholding for a customer. The c
 - Income *greater than/equal to $1500 and less than $2500*: tax rate is 20%
 - Income *greater than/equal to $2500*: tax rate is 30%
 
-- ## 💯 Grade Statistics
+- ## 💯 [Grade Statistics](https://github.com/elizacodes/uni-python-projects/blob/main/Grade%20Statistics.py)
 Provides important statistics for a specific grade based on the user inputs with their classes and the grades in their classes. The following output is printed:
 - Average
 - Maximum
