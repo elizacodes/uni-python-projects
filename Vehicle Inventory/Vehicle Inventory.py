@@ -1,8 +1,6 @@
 # This program is designed to be used for a dealership
 # so they can have a vehicle inventory program.
 
-import pyinputplus as pyip
-
 class Vehicle:
     def __init__(self,  make, model, year, mileage, color, status):
         self.make = make
