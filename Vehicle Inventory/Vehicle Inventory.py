@@ -21,12 +21,15 @@ class Vehicle:
         self.status = status
         
     def __str__(self):
-        return("%d %s %s \nColor: %s \nMileage: %d" % (self.year,
-                                                       self.make,
-                                                       self.model,
-                                                       self.color,
-                                                       self.mileage,
-                                                       self.status))
+        return("""%s %s %s \n
+               Color: %s
+               Mileage: %s
+               Status: %s""" % (self.year,
+                                self.make,
+                                self.model,
+                                self.color,
+                                self.mileage,
+                                self.status))
 
 
 def add_vehicle(inventory):
