@@ -29,7 +29,7 @@ Provides important statistics for a specific grade based on the user inputs with
 - Maximum
 - Minimum
 
-## 🗃️🚗 [Vehicle Inventory]
+## 🗃️🚗 [Vehicle Inventory](https://github.com/elizacodes/uni-python-projects/tree/main/Vehicle%20Inventory)
 This is the final portfolio project for the ITS320-1 Course. This is a vehicle inventory program that is meant to be written for a car dealership. The purpose of this program is to have the inventory contain the following attributes of the vehicle:
 - Make (e.g. Honda)
 - Model (e.g. Civic)
