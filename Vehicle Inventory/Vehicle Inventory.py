@@ -21,7 +21,7 @@ class Vehicle:
         self.status = status
         
     def __str__(self):
-        return("""%s %s %s \n
+        return("""%s %s %s
                Color: %s
                Mileage: %s
                Status: %s""" % (self.year,
