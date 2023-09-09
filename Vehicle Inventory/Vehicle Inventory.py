@@ -49,7 +49,7 @@ def modify_vehicle(inventory):
     make = input("Enter the make of the vehicle: \n")
     model = input("Enter the vehicle model: \n")
     year = input("Enter the year of the vehicle: \n")
-    mileage = input("Enter the vehicle's milage: \n")
+    mileage = input("Enter the vehicle's mileage: \n")
     color = input("Enter the color of the vehicle: \n")
     status = input("Enter the status of the vehicle (Sold/In Stock): \n")
     inventory[position].edit(make, model, year, mileage, color, status)
@@ -57,6 +57,12 @@ def modify_vehicle(inventory):
 def vehicle_output(inventory):
     for i in inventory:
         print(i)
+
+def write_txt_file(inventory):
+    f = open("vehicle_inventory.txt","w")
+    for i in inventory:
+        f.write(str(i))
+    f.close()
 
 inventory = []
 
