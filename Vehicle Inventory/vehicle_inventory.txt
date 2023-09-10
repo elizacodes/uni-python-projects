@@ -1,0 +1,12 @@
+2019 Honda Civic
+               Color: White
+               Mileage: 10900
+               Status: Sold 
+2017 Mazda Hatchback
+               Color: Black
+               Mileage: 109100
+               Status: In Stock 
+2018 Chevrolet Silverado
+               Color: Red
+               Mileage: 85100
+               Status: In Stock 
