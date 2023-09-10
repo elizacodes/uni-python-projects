@@ -14,8 +14,8 @@ class Vehicle:
     def edit(self, make, model, year, mileage, color, status):
         self.make = make
         self.model = model
-        self.year = year
-        self.mileage = mileage
+        self.year = int(year)
+        self.mileage = int(mileage)
         self.color = color
         self.status = status 
 
